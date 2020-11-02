@@ -1,0 +1,95 @@
+:root {
+    font: Roboto;
+}
+.logo-web {
+
+    font-size: 26px;
+    font-weight: 700;
+    color:  #2196F3;
+}
+.logo-studio {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+.title-blu {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2196F3;
+}
+.title-nav {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.tel-number {
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+.main-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+}
+.main-button {
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.advantage {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+}
+.advantage-fill {
+    font-size: 14px; ;
+    font-weight: 400 ;
+    color: #757575;
+}
+.h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.team-member {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121 ;
+}
+.team-role {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.contact-item {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+.address {
+    font-size: 14;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+.title-white {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.project-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+}
+.project-type {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
