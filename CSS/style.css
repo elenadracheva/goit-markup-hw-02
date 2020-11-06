@@ -1,13 +1,33 @@
 :root {
-    font: Roboto;
+    --primery-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    }
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
 }
-.logo-web {
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.menu {
+    list-style: none;
+}
+.contacts {
+    list-style: none;
+}
 
+.logo-web {
+    font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color:  #2196F3;
 }
 .logo-studio {
+    font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: black;
@@ -21,6 +41,7 @@
     font-size: 14px;
     font-weight: 500;
     color: black;
+    background-color: #F5F4FA;
 }
 .tel-number {
     font-size: 14px;
