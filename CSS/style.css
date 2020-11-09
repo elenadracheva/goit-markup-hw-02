@@ -32,32 +32,20 @@ a {
     font-weight: 700;
     color: black;
 }
-.title-blu {
-    font-size: 14px;
-    font-weight: 500;
-    color: #2196F3;
-}
-.title-nav {
-    font-size: 14px;
-    font-weight: 500;
-    color: black;
-    background-color: #F5F4FA;
-}
-.tel-number {
-    font-size: 14px;
-    font-weight: 500;
-    color: #757575;
-}
+
 .main-title {
     font-size: 44px;
     font-weight: 900;
     color: white;
 }
 .main-button {
+    font-family: Roboto;
     background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
     color: white;
+    letter-spacing: 0.06em;
+    line-height: 30px;
 }
 .advantage {
     font-size: 14px;
@@ -69,7 +57,7 @@ a {
     font-weight: 400 ;
     color: #757575;
 }
-.h2 {
+.title-two {
     font-size: 36px;
     font-weight: 700;
     color: black;
@@ -85,25 +73,30 @@ a {
     color: #757575;
 }
 .contact-item {
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);   
 }
+.contact-item:hover {
+    color:#2196F3 ;}
+.contact-item:focus {
+    color: #2196F3;}
+
 .address {
-    font-size: 14;
+    font-style: normal;
+    font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
-.title {
-    font-size: 16px;
+.title-nav {
+    font-size: 14px;
     font-weight: 500;
     color: #212121;
 }
-.title-white {
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-}
+.title-nav:hover {color: #2196F3;}
+
 .project-title {
     font-size: 18px;
     font-weight: 700;
@@ -113,4 +106,18 @@ a {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
+}
+.menu-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F5F4FA;
+}
+.menu-button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.menu-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
