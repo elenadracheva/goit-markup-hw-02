@@ -36,7 +36,10 @@ a {
 .main-title {
     font-size: 44px;
     font-weight: 900;
+    font-style: normal;
+    line-height: 1.4;
     color: white;
+
 }
 .main-button {
     font-family: Roboto;
@@ -51,6 +54,8 @@ a {
     font-size: 14px;
     font-weight: 700;
     color: #212121;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .advantage-fill {
     font-size: 14px; ;
@@ -61,6 +66,10 @@ a {
     font-size: 36px;
     font-weight: 700;
     color: black;
+    font-family: Roboto;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-member {
     font-size: 16px;
@@ -72,12 +81,23 @@ a {
     font-weight: 400;
     color: #757575;
 }
-.contact-item {
-    font-style: normal;
+.contacts-header {   
+    font-weight: 500;
     font-size: 14px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);   
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
+.contacts-footer {   
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+      
 .contact-item:hover {
     color:#2196F3 ;}
 .contact-item:focus {
@@ -87,8 +107,9 @@ a {
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
-    color: #FFFFFF;
+    line-height: 1.7;
     letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .title-nav {
     font-size: 14px;
@@ -101,6 +122,10 @@ a {
     font-size: 18px;
     font-weight: 700;
     color: #212121;
+    font-family: Roboto;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
 }
 .project-type {
     font-size: 16px;
