@@ -89,6 +89,9 @@ a {
     letter-spacing: 0.02em;
     color: #757575;
 }
+.contacts-header:hover, .contacts-header:focus {
+    color: #2196F3;
+}
 .contacts-footer {   
     font-weight: 500;
     font-size: 14px;
@@ -97,11 +100,16 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-      
+.contacts-footer:hover, .contacts-header:focus {
+    color: #2196F3;
+    } 
+
 .contact-item:hover {
-    color:#2196F3 ;}
+    color:#2196F3 ;
+}
 .contact-item:focus {
-    color: #2196F3;}
+    color: #2196F3;
+}
 
 .address {
     font-style: normal;
