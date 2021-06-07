@@ -1,3 +1,9 @@
+html {box-sizing: border-box;}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 :root {
     --primery-text-color: #212121;
     --title-text-color: #212121;
@@ -6,7 +12,11 @@
 body {
     background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
-}
+}    
+.container {
+    width: 1230px;
+    border: red 1px solid;
+}    
 a {
     text-decoration: none;
 }
@@ -14,43 +24,67 @@ a {
     list-style: none;
 }
 .menu {
-    list-style: none;
+    list-style: none; 
 }
 .contacts {
     list-style: none;
 }
 
 .logo-web {
+    display: inline-block;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color:  #2196F3;
 }
 .logo-studio {
+    display: inline-block;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: black;
 }
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    height: 80px;
+}
 
 .main-title {
+    margin: 0px;
+    padding-top: 200px;
+    padding-bottom: 30px;
     font-size: 44px;
     font-weight: 900;
     font-style: normal;
     line-height: 1.4;
     color: white;
-
+    text-align: center;
 }
+.main-container {
+    background-color: #1a1a1b;
+    text-align: center;
+    width: 1600px;
+}
+
 .main-button {
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
     font-family: Roboto;
     background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
     color: white;
     letter-spacing: 0.06em;
-    line-height: 30px;
+    min-width: 200px;
+    min-height: 50px;
+    border: 1px solid transparent;
 }
 .advantage {
+    margin: 0px;
+    padding-top: 94px;
     font-size: 14px;
     font-weight: 700;
     color: #212121;
@@ -61,8 +95,11 @@ a {
     font-size: 14px; ;
     font-weight: 400 ;
     color: #757575;
+    padding-bottom: 94px;
 }
 .title-two {
+    margin: 0;
+    padding-bottom: 50px;
     font-size: 36px;
     font-weight: 700;
     color: black;
@@ -154,3 +191,11 @@ a {
     color: #FFFFFF;
     background-color: #2196F3;
 }
+.main-section {
+    width: 1600px;
+    height: 600px;
+}
+.advantage-section {}
+.team-section {}
+.works-section {}
+.footer-section {}
