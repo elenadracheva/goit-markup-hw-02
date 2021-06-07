@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-      <a href="index.html"> 
-        <span class="logo-web"> Web</span>
-        <span class="logo-studio">Studio</span> </a>
-      <nav>
-       <ul class="list">
-        <li> <a href="" class="title-nav" style="color: #2196F3 ;">Студия</a></li>
-        <li> <a href="./portfolio.html" target="blank" class="title-nav">Портфолио</a></li>
-        <li> <a href="" class="title-nav" >Контакты</a></li>
-       </ul>
-      </nav>  
-       <ul class="list">    
-         <li> <a href="mailto:info@devstudio.com:" class="contacts-header">info@devstudio.com</a> </li>
-         <li> <a href="tel:+380961111111" class="contacts-header">+38 096 111 11 11</a> </li>
-       </ul>
+    <header class="nav-section">
+      <div class="container">
+        <a href="./portfolio.html"> 
+          <span class="logo-web"> Web</span>
+          <span class="logo-studio">Studio</span> </a>
+        
+         <div class="nav-container">
+          <nav>
+         <ul class="list">
+          <li> <a href="" class="title-nav"style="color: #2196F3;">Студия</a> </li>
+          <li> <a href="" class="title-nav" >Портфолио</a> </li>
+          <li> <a href="" class="title-nav" >Контакты</a> </li>
+         </ul>
+          </nav> 
+         </div>
+         <ul class="list">    
+           <li> <a href="mailto:info@devstudio.com:" class="contacts-header">info@devstudio.com</a> </li>
+           <li> <a href="tel:+380961111111" class="contacts-header">+38 096 111 11 11</a> </li>
+         </ul>
+       </div>
     </header>
     <main>
-      <section>
+      <div class="container">
+       <div class="main-container">
+      <section class="main-section">
          <h1 class="main-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
          <button class="main-button">Заказать услугу</button>
       </section>
-      <section>
+       </div>
+      </div>
+      <section class="advantage-section">
+      
+        <div class="container">
        <ul class="list">
          <li>
              <h3 class="advantage">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -48,16 +60,20 @@
              <p class="advantage-fill">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
          </li>
        </ul>
+      </div>
       </section>
-      <section>
+      <section class="works-section">
+        <div class="container">
         <h2 class="title-two">Чем мы занимаемся</h2>
         <ul class="list">
             <li><img src="images/works-notebook.jpg" alt="наша работа" width="370" ></li>
             <li><img src="images/works-smartphone.jpg" alt="наша работа" width="370"></li>
             <li><img src="images/works-spectr.jpg" alt="наша работа" width="370"></li>
         </ul>
+      </div>
       </section>
-      <section>
+      <section class="team-section">
+        <div class="container">
         <h2 class="title-two">Наша команда</h2>
         <ul class="list">
             <li><img src="images/team-igor.jpg" alt="Игорь Демьяненко" width="270">  
@@ -73,9 +89,11 @@
               <h3 class="team-member">Михаил Ермаков</h3>
               <p class="team-role">UI Designer</p></li>      
         </ul>
+      </div>
       </section> 
     </main>
-    <footer>
+    <footer class="footer-section">
+      <div class="container">
       <a href="/index.html"> 
         <span class="logo-web"> Web</span>
         <span class="logo-studio">Studio</span> </a>
@@ -86,6 +104,7 @@
        <li><a class="contacts-footer" href="mailto:info@example.com">info@example.com </a> </li> 
       </ul>
     </address>
+      </div>
     </footer>
 </body>
 </html>
